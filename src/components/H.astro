@@ -1,0 +1,7 @@
+---
+const { level = "h2", className = "" } = Astro.props;
+const Tag = level; // Dynamic tag (h1, h2, h3, etc.)
+---
+<Tag class={`text-xl font-semibold text-gray-900 mt-8 mb-4 ${className}`}>
+  <slot />
+</Tag>
