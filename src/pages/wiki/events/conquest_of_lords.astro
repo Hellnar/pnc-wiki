@@ -1,10 +1,11 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 import H from "../../../components/H.astro";
+import puzzles from "../../../assets/puzzles.jpg";
 ---
 
 <Layout>
-    <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
+    <img src={puzzles.src}
         alt="Blog header image" 
         class="w-full h-64 object-cover">
                 
@@ -13,11 +14,44 @@ import H from "../../../components/H.astro";
             <span>March 15, 2025</span>
             <span class="mx-2">•</span>
             <span>5 min read</span>
-            <span class="mx-2">•</span>
-            <span class="text-primary">Technology</span>
         </div>
                     
-        <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">The Future of Web Development: Trends to Watch in 2025</h1>
+        <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Conquest of Lords</h1>
+
+        <h2>Intro</h2>
+
+        <p>One small victory does not guarantee permanent peace, for the Hall of Might is still coveted by various powerful forces.</p>
+
+        <p>The banners fly high, and the battle is about to begin. Who will emerge as the ultimate victor?</p>
+
+        <ol class="list-decimal pl-6 my-4 space-y-2">
+            <li>Conquest of Lords is held every two weeks.</li>
+
+            <li>The expedition battle lasts 24 hours, and the Lord and their Alliance who continuously occupy the Hall of Might for 8 hours will win. At the end of the expedition, if no Lord has met the conditions, the Lord and their Alliance who have occupied the Hall of Might for the longest time will win.</li>
+
+            <li>During the expedition, the Lord can teleport to other Realms. Lords outside the Enchanted Woodland cannot be attacked or scouted by Lords from other Realms. (If the Castle is defeated within the Enchanted Woodland of another Realm, it will be sent back to a Random location in the original Realm)</li>
+
+            <li>When the Hall of Might and the Spire are occupied by different Alliances, the Spire will continuously attack the Hall of Might, causing substantial damage to the defending troops, and some defending troops will die directly. (The Spire attack will also take effect when the Hall of Might opens war protection)</li>
+
+            <li>When the Lord of this Realm occupies the Hall of Might of another Realm, and the Hall of Might of this Realm is not occupied by invaders, the Hall of Might of this Realm will open special war protection. When the Lord of this Realm defeats the invaders who occupied Hall of Might of this Realm, it will open special war protection. The Hall of Might under war protection can only be attacked or occupied by the Lord of this Realm, and Lords from other Realms cannot attack or occupy it.</li>
+
+            <li>When an Alliance occupies a building for 1 hours, they’ll gain the garrison buff (only buildings that have been occupied for at least 20 minutes count, and at least 2 buildings must be occupied). The more buildings occupied for more than 20 minutes, the greater the buff.</li>
+
+            <li>The effectiveness of unit counters is weakened in the Hall of Might and Spires.</li>
+        </ol>
+
+        <h2>Rewards</h2>
+
+        <ol>
+        <li>Finish quests to earn points and unlock point rewards.</li>
+
+        <li>Participants and Realms will be ranked based on points they’ve earned during the event. After the event settles, rank rewards will be sent via Mail based on their final rankings.</li>
+
+        <li>During the event, each additional Realm colonized earns you an extra set of Emperor’s Award Chests. The Emperor may award from the Hall of Might.</li>
+
+        <li>The colonized Realm needs to pay a portion of resources as taxation on a daily basis. These resources go to the Treasury. The Emperor and the Aide may allocate the Treasury resources.</li>
+        </ol>
+
         <H level="h2">Event rules</H>
 
         <H level="h2">How to participate in Conquest of Lords</H>
@@ -38,5 +72,7 @@ import H from "../../../components/H.astro";
             High power castles may teleport right to the spires to decrease the distance and attack the spire very fast. To prevent it - the whole realm is placing shielded farms in the forest to maximize the path from potential danger to the spires or Hall.
             All the deaths during this event are permanent so be careful befor doing any kind of actions that may kill your troops.
         </p>
+
+        <H level="h2">How to participate in Conquest of Lords</H>
     </div>
 </Layout>
